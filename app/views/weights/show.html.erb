@@ -1,2 +1,12 @@
-<h1>Weights#show</h1>
-<p>Find me in app/views/weights/show.html.erb</p>
+<h1>Weights</h1>
+<span><%= link_to "See All Weights", weights_path %></span>
+
+<div>
+Weight: <%= @weight.amount%> Kilos
+</div>
+<div>
+Date: <%= @weight.date%>
+</div>
+<div>
+Comment: <%= @weight.comment%>
+</div>

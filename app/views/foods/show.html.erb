@@ -1,2 +1,6 @@
-<h1>Foods#show</h1>
-<p>Find me in app/views/foods/show.html.erb</p>
+
+<%= render partial: "nav" %>
+
+<p><%= @food.name %></p>
+<img src="<%= @food.image %>" alt=“image”>
+<p><%= @food.calories %></p>

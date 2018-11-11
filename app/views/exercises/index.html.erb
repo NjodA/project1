@@ -1,0 +1,11 @@
+<h1>Exercises#index</h1>
+<%= link_to "New exercise", new_exercise_path %>
+
+<% @exercises.each do |exercise| %>
+
+<div>
+<p>Exercise:<%= exercise.name %></p>
+<p>Minutes:<%= exercise.minute %></p>  </div>
+<% end %>
+
+<%= console %>

@@ -1,8 +1,12 @@
 <h1>Weights#index</h1>
-<p>Find me in app/views/weights/index.html.erb</p>
+<br>
+<% @weights.each_with_index do |weight, index| %>
 
-<% @weights.each do |weight| %>
-  <%= weight.amount %>
-  <%= weight.user.email %>
+    <%= link_to weight.date, weight_path(weight) %>
+    <%= weight.amount %> 
+    <% previous_weight = @weights[index-1].amount unless index == 0 %>
+    <%= weight.amount - previous_weight if previous_weight%>
   <br>
 <% end %>
+<br>
+<%= render partial: 'form' %>
