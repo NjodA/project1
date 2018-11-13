@@ -1,7 +1,7 @@
 
 <%= form_for @food do |form| %>
   Name: <%= form.text_field :name %>
-  Image: <%= form.text_field :image %>
+  Image: <%= form.file_field :image %><br>
   Calories: <%= form.text_field :calories %>
   <%= form.submit %>
 <% end %>
