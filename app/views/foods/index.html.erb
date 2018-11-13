@@ -1,11 +1,15 @@
-<h1>Foods#index</h1>
+<div class="container text-large">
+  <div class="card padding text-large">
 
 <%= link_to "New Food", new_food_path %>
 
 <% @foods.each do |food| %>
-<div>
+  <div class="card padding text-large">
+
 <p><%= food.name %></p>
- <img src="<%= food.image %>" alt=“image”>
+ <img src="<%= food.image %>" alt=“image” height="300" width="500">
 <p><%= food.calories %> CAL</p>
   </div>
 <% end %>
+</div>
+</div>

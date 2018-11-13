@@ -1,14 +1,31 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+
+
 
 
 <% if user_signed_in? %>
-<%= link_to 'Weight', weights_path %>
-<%= link_to 'Food', foods_path %>
-<%= link_to 'Exercise', exercises_path %>
-  <p>Stuff for logged in users</p>
+  <%= link_to image_tag("https://image.flaticon.com/icons/svg/1188/1188116.svg", border: 0), weights_path, class: 'pic1' %>
+  <%= link_to image_tag("https://image.flaticon.com/icons/svg/706/706164.svg", border: 0), foods_path, class: 'pic2' %>
+  <%= link_to image_tag("https://image.flaticon.com/icons/svg/1177/1177668.svg", border: 0), exercises_path, class: 'pic3' %>
+   
+
+<%#
+<div class="pic">
+<%=  image_tag "/assets/logo.png" %
+</div>
+      <a href="">
+        <img class="pic2"  src="https://image.flaticon.com/icons/svg/706/706164.svg" alt="">
+      </a>
+      <a href="">
+        <img class="pic3" src=" https://image.flaticon.com/icons/svg/1177/1177668.svg" >
+      </a>
+      <div class="f"> <%= link_to 'Food', foods_path </div>
+      <div class="card-image ">
+        <div class="w">    <%= link_to 'Weight', weights_path </span></div>
+      </div>
+      <div class="e"> <%= link_to 'Exercise', exercises_path %</div>
+%>
 <% else %>
-  <p>Stuff for logged out users</p>
 <% end %>
 
 

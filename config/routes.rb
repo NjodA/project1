@@ -2,5 +2,8 @@ Rails.application.routes.draw do
 
   resources :weights, :foods , :exercises
   devise_for :users
-  root to: "pages#home"
+  get "/home", to: "pages#home"
+  devise_scope :user do
+    root to: "devise/sessions#new"
+  end
 end

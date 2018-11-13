@@ -12,4 +12,161 @@
  *
  *= require_tree .
  *= require_self
- */
+*/
+
+html,
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+header {
+}
+
+body {
+  position: relative;
+}
+
+header .m {
+  position: absolute;
+  width: 180px;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.text-large {
+  font-size: 18px;
+}
+
+.card .card-image img {
+  border-radius: 1px 17px 0 0;
+  position: relative;
+  left: 114px;
+  right: 0px;
+  top: 1px;
+  bottom: 0;
+  width: 50%;
+}
+.home-pictures {
+  display: flex;
+}
+.pic1 > img {
+  border-style: none;
+  width: 231px;
+  top: 312px;
+  position: absolute;
+  left: 171px;
+}
+.pic2 > img {
+  position: absolute;
+  left: 564px;
+  top: 300px;
+  width: 258px;
+}
+
+.pic3 > img {
+  position: absolute;
+  left: 934px;
+  top: 305px;
+  width: 246px;
+}
+
+.f a {
+  position: relative;
+  top: 355px;
+  left: 650px;
+  font-family: "Anton", sans-serif;
+  font-size: 50px;
+  color: rgb(96, 138, 221);
+}
+
+.w a {
+  position: relative;
+  top: 429px;
+  left: 220px;
+  font-family: "Anton", sans-serif;
+  font-size: 50px;
+  color: rgb(96, 138, 221);
+}
+
+.e a {
+  position: relative;
+  top: 277px;
+  left: 980px;
+  font-family: "Anton", sans-serif;
+  font-size: 50px;
+  color: rgb(96, 138, 221);
+}
+
+nav,
+nav .nav-wrapper i,
+nav a.button-collapse,
+nav a.button-collapse i {
+  margin-top: 20px;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  height: 170px;
+  line-height: 100px;
+  background-color:  rgb(26, 127, 243);
+}
+.right m {
+  color: red;
+}
+/* .pic img {
+  position: relative;
+  top: -220px;
+  left: 538px;
+} */
+nav {
+  /* margin: 0; */
+  position: relative;
+}
+nav .wrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+element.style {
+  position: absolute;
+  left: 1091px;
+}
+
+.left a {
+  float: left !important;
+  position: relative;
+  left: 989px;
+  top: 66px;
+  display: contents;
+}
+.left a {
+  float: left !important;
+  /* position: inherit; */
+  left: 1014px;
+  top: 66px;
+  width: 138px;
+  font-size: 31px;
+}
+
+.nav-item {
+  font-size: 30px;
+  margin: 0 20px;
+  padding: 0 20px;
+}
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    position: relative;
+    opacity: 1;
+    pointer-events: inherit;
+    width: auto;
+} 
+label{
+    font-size:20px;
+}

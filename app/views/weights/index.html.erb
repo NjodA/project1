@@ -1,12 +1,22 @@
-<h1>Weights#index</h1>
-<br>
-<% @weights.each_with_index do |weight, index| %>
+<div class="container ">
+<%= link_to "New Weight", new_weight_path %>
 
+<% @weights.each_with_index do |weight, index| %>
+  <div class="card padding text-large">
     <%= link_to weight.date, weight_path(weight) %>
     <%= weight.amount %> 
     <% previous_weight = @weights[index-1].amount unless index == 0 %>
-    <%= weight.amount - previous_weight if previous_weight%>
+    <% if previous_weight %>
+      <% if weight.amount - previous_weight < 0 %>
+        You weigh <%= (weight.amount - previous_weight).abs %> kilograms less
+      <% elsif weight.amount - previous_weight == 0 %>
+        Your weigh the same!
+      <% else %>
+        You weigh <%= (weight.amount - previous_weight).abs%> kilograms more
+      <% end %>
+    <% end %>
   <br>
+  </div>
 <% end %>
 <br>
-<%= render partial: 'form' %>
+</div>

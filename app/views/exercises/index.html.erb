@@ -1,11 +1,12 @@
-<h1>Exercises#index</h1>
-<%= link_to "New exercise", new_exercise_path %>
+<div class="container text-large">
+
+<%= link_to "New Exercise", new_exercise_path %>
 
 <% @exercises.each do |exercise| %>
 
-<div>
+  <div class="card padding text-large">
 <p>Exercise:<%= exercise.name %></p>
-<p>Minutes:<%= exercise.minute %></p>  </div>
+<p>Minutes:<%= exercise.minute %> Min </p>
+</div>
 <% end %>
-
-<%= console %>
+</div>
