@@ -1,24 +1,42 @@
-# README
+# Your life Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description of tech/links
 
-Things you may want to cover:
+It is a website to track your health and body by assign your weights in different dates , assign your meals with the calories and image , and list of your exercises with the minutes.
 
-* Ruby version
+## Technology used
 
-* System dependencies
+- RubyOnRails.
+- Javascript.
+- CSS.
 
-* Configuration
+## Thought process/approach
 
-* Database creation
+Think about the logic then build 4 models then coding after that the styling.
 
-* Database initialization
+## Link to the project
 
-* How to run the test suite
+[Your Life](https://secure-plains-66454.herokuapp.com/)
 
-* Services (job queues, cache servers, search engines, etc.)
+## What's next?
 
-* Deployment instructions
+Make a whole website that about the health body and how to control yourself.
 
-* ...
+## Credits
+
+- google fonts.
+- Materialize.
+- Photoshop.
+- Heroku.
+- Jack Jeffress.
+- Moath Althawad.
+- My lovely friend "Mada".
+- Lina Alqurashi.
+- Alanoud Alrasheed.
+- Rawan Albahouth.
+- Noura Alsubaie.
+- Mohmmed Abdulqader.
+- Jaafar Abdullah.
+- Ali S.
+- Sami.
+- Abdullah Alqahtani.
