@@ -31,12 +31,4 @@ Make a whole website that about the health body and how to control yourself.
 - Jack Jeffress.
 - Moath Althawad.
 - My lovely friend "Mada".
-- Lina Alqurashi.
-- Alanoud Alrasheed.
-- Rawan Albahouth.
-- Noura Alsubaie.
-- Mohmmed Abdulqader.
-- Jaafar Abdullah.
-- Ali S.
-- Sami.
-- Abdullah Alqahtani.
+
